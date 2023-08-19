@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactApexChart from 'react-apexcharts';
-
+import {Box} from './style'
 
 
 function LineChart() {
@@ -47,7 +47,7 @@ function LineChart() {
       ];
     
   return (
-    <div>
+    <Box>
         
         <ReactApexChart
       options={chartOptions}
@@ -55,7 +55,7 @@ function LineChart() {
       type="line"
       height={150}
     />
-    </div>
+    </Box>
   )
 }
 

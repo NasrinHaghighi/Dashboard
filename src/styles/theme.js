@@ -14,5 +14,7 @@ redHover:'#bc1f17',
 green:'#27AE60',
 borderColor:'#71555588',
 borderGray:'#d2d2d7d1',
-pink:'#db7980'
+pink:'#db7980',
+purple:'#f2e8ff',
+darkPurple:'#414382'
     };

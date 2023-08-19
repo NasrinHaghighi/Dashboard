@@ -1,5 +1,6 @@
 import React from 'react'
-import {AnallyesContainer, Left,Rigth,  } from './style'
+import {AnallyesContainer, Left, LeftContent, Rigth,  } from './style'
+import {Title} from '../Performance/style'
 import Circle from '../../../images/circle.png'
 import LineChart from './LineChart/LineChart'
 import Tabs from '../Tabs/Tabs'
@@ -8,12 +9,17 @@ import Tabs from '../Tabs/Tabs'
 function Anallyes() {
   return (
     <AnallyesContainer>
+    
         <Left>
-    <LineChart />
-     <Tabs />
+            <Title>Analitics</Title>
+          <LeftContent>
+            <LineChart />
+            <Tabs />
+     </LeftContent>
         </Left>
         <Rigth>
-      <img src={Circle}/>
+        <Title>Events Distribution</Title>
+        <img src={Circle}/>
         </Rigth>
     </AnallyesContainer>
   )

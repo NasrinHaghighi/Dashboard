@@ -2,6 +2,7 @@ import React from 'react'
 
 import {Container, Header, Name, Hi, Message, Icons, IconDIv} from './style'
 import {AiOutlineMessage, AiOutlineBell} from 'react-icons/ai'
+import PersonalInfo from './PersonalInfo/PersonalInfo'
 
 
 function Info() {
@@ -20,6 +21,7 @@ function Info() {
            </Icons>
 
         </Header>
+        <PersonalInfo />
     </Container>
   )
 }
