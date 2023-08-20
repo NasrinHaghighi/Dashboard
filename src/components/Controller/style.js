@@ -2,8 +2,14 @@ import styled from 'styled-components'
 import ControllerImg from '../../images/controller.png'
 
 export const Container =styled.div`
-padding:50px 50px;
+padding:50px 30px;
+max-width: 300px;
 color: ${props=>props.theme.grayText};
+
+@media (min-width: 1920px) {
+    /* Styles for screens larger than or equal to 1200px */
+   margin-left: 90px;
+  }
 
 `
 export const Header =styled.div`

@@ -18,7 +18,7 @@ export const AccordionHeader=styled(Accordion.Header)`
  
 `
 export const AccordionBody=styled(Accordion.Body)`
-    font-size: 20px;
+    font-size: 16px;
 color: ${props=>props.theme.boldGrayText};
 `
 export const Tit=styled.span`
@@ -26,7 +26,7 @@ export const Tit=styled.span`
 &.bag{
     border-radius: 10px;
     padding: 5px 10px;
-    font-size: 18px;
+    font-size: 12px;
     border:1px solid ${props=>props.theme.borderGray}
 }
 `

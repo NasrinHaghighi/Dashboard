@@ -5,8 +5,8 @@ import styled from 'styled-components'
 export const Box=styled.div`
 background-color: ${props=>props.video ? '#f2e8ff' : '#fef3f1'};
 color:${props=>props.video ? '#555d8e' : '#ab6656'};
-width: 180px;
-height: 200px;
+width: 130px;
+height: 180px;
 margin: 0 10px;
 border-radius: 8px;
 padding: 10px;

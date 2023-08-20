@@ -8,7 +8,7 @@ function Posts({fav}) {
   return (
     <AccordionS defaultActiveKey="0" className={fav ? 'last' : ''}>
       <AccordionItemS eventKey="0">
-        <AccordionHeader>{fav ? 'Favorite Users' :'Posts'}</AccordionHeader>
+        <AccordionHeader>{fav ? 'Favorite Users' :'Posts'} </AccordionHeader>
         <AccordionBody>
         {fav ? '' : <IoCheckmarkDoneCircleOutline />}
        

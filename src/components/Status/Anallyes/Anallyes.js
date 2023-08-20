@@ -4,7 +4,7 @@ import {Title} from '../Performance/style'
 import Circle from '../../../images/circle.png'
 import LineChart from './LineChart/LineChart'
 import Tabs from '../Tabs/Tabs'
-
+import Distribution from './Distribution/Distribution'
 
 function Anallyes() {
   return (
@@ -19,7 +19,7 @@ function Anallyes() {
         </Left>
         <Rigth>
         <Title>Events Distribution</Title>
-        <img src={Circle}/>
+        <Distribution />
         </Rigth>
     </AnallyesContainer>
   )

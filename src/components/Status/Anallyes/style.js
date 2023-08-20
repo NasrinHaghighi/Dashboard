@@ -3,14 +3,19 @@ import styled from 'styled-components'
 
 export const AnallyesContainer=styled.div`
 display: grid;
-grid-template-columns: repeat(2, 1fr);
+max-width: 800px;
+grid-template-columns: 2fr 1fr;
 grid-column-gap: 30px;
 grid-row-gap: 0px;
-height: 300px;
+height: 350px;
+margin-bottom: 35px;
+
+
 
 `
 export const Left=styled.div`
 padding: 0 0px;
+width: 450px;
 `
 export const LeftContent=styled.div`
 display: grid;

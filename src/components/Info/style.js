@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 
 export const Container =styled.div`
-padding:50px 30px;
-
+padding:50px 10px 50px 50px;
+max-width: 300px;
 
 `
 export const Header =styled.div`

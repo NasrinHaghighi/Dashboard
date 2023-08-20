@@ -2,14 +2,14 @@ import styled from 'styled-components'
 
 
 export const Container=styled.div`
-
+max-width: 450px;
 display: flex;
 justify-content: space-between;
 `
 export const Cart=styled.div`
 background-color: #fff;
 margin: 0 10px;
-width: 150px;
+width: 100px;
 transition:all  0.5s ease-in-out;
 text-align: center;
 border-radius: 8px;
@@ -17,7 +17,7 @@ border-radius: 8px;
 padding: 20px;
 &.active{
     background-color:${props=>props.theme.purple}; 
-    width: 280px;
+    width: 150px;
     text-align: left;
 }
 
@@ -27,7 +27,7 @@ margin-bottom:25px;
 display: flex;
 justify-content: center;
 align-items: center;
-transition: all 0.5s ease-in-out;
+transition: all 0.3s ease-in-out;
 &.active{
 width: 100%;
     
@@ -52,24 +52,24 @@ align-items: center;
 }
 `
 export const Title=styled.div`
-display: flex;
-flex-wrap: nowrap;
+font-size: 14px;
+transition: all 0.3s ease-in-out;
 &.active{
-    font-weight: 700;
+    font-weight: 600;
 }
 `
 
 export const Pic=styled.div`
 display: none;
-width: 0px;
-height: 0px;
+width: 50px;
+height: 50px;
 opacity: 0;
 border-radius: 8px;
 background-image: url(${props => props.bg});
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-transition: all 0.5s ease-in-out;
+transition: all 0.3s ease-in-out;
 &.active{
     opacity: 1;
     width: 50px;

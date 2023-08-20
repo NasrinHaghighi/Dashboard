@@ -1,15 +1,16 @@
 import React from 'react'
-import { MainContainer, Main } from './style'
+import { MainContainer, Main, InnerContainer
+} from './style'
 
 
 
 function Layout({children}) {
   return (
     <MainContainer>
-   
-         
+   <InnerContainer>
     <Main>{children}</Main>
-    
+    </InnerContainer>
+         
       </MainContainer>
   )
 }

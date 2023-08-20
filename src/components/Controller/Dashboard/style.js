@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Ul=styled.ul`
 list-style:none;
 padding: 0;
-font-size: 24px;
+font-size: 21px;
 padding-bottom:30px;
 border-bottom: 1px solid ${props=>props.theme.borderGray};
 `

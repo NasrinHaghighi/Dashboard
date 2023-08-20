@@ -49,17 +49,22 @@ display: flex;
 justify-content:space-between;
 align-items: center;
 margin-bottom: 30px;
+font-size: 14px;
 `
 export const BtnView=styled.div`
+width: 130px;
+text-align: center;
 margin-right: 10px;
 color: #ffff;
-padding: 10px 20px;
+padding: 10px 10px;
 border-radius: 8px;
 background-color: ${props=>props.theme.blue};
 `
 export const BtnEdit=styled.div`
+width: 130px;
+text-align: center;
 margin-left: 10px;
-padding: 10px 20px;
+padding: 10px 10px;
 border: 1px solid ${props=>props.theme.borderGray};
 border-radius: 8px;
 `
@@ -69,6 +74,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-bottom: 30px;
+
 `
 
 
@@ -84,8 +90,8 @@ padding: 0 10px;
 `
 export const Photo=styled.div`
 border-radius: 8px;
-width: 130px;
-height: 130px;
+width: 100px;
+height: 100px;
 background-image: url(${props=>props.bg});
 background-position: center;
 background-repeat: no-repeat;
