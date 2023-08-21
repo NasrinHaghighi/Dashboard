@@ -5,14 +5,6 @@ import {RxActivityLog} from 'react-icons/rx'
 import {FiSettings} from 'react-icons/fi'
 
 
-
-const arr=[
-    {id:1, icon:<FaRegEnvelopeOpen/>,title:'Dashboard'},
-    {id:2, icon:<RxActivityLog/>,title:'Activity'},
-    {id:3, icon:<FiSettings/> ,title:'Setting'},
-
-
-]
 function Dashboard() {
   return (
    <Ul>
@@ -29,3 +21,15 @@ function Dashboard() {
 }
 
 export default Dashboard
+
+
+
+
+
+const arr=[
+  {id:1, icon:<FaRegEnvelopeOpen/>,title:'Dashboard'},
+  {id:2, icon:<RxActivityLog/>,title:'Activity'},
+  {id:3, icon:<FiSettings/> ,title:'Setting'},
+
+
+]

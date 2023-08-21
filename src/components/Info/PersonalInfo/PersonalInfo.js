@@ -8,24 +8,6 @@ import Pic3 from '../../../images/pic3.jpeg'
 
 
 
-const gallaryPic=[
-    {id:1 , pic:Pic1 },
-   
-    {id:3 , pic:Pic3 },
-    {id:2 , pic:Pic2 },
-    {id:5 , pic:Pic2 },
-    {id:6 , pic:Pic3 },
-    {id:4 , pic:Pic1 },
-]
-
-
-
-const arrInfo=[
-    {id:1, tit:'Followers', num:'789K'},
-    {id:2, tit:'Following', num:'298K'},
-    {id:3, tit:'Followers', num:'100K'},
-    
-]
 function PersonalInfo() {
   return (
     <Conatiner>
@@ -62,3 +44,26 @@ function PersonalInfo() {
 }
 
 export default PersonalInfo
+
+
+
+
+
+const gallaryPic=[
+    {id:1 , pic:Pic1 },
+   
+    {id:3 , pic:Pic3 },
+    {id:2 , pic:Pic2 },
+    {id:5 , pic:Pic2 },
+    {id:6 , pic:Pic3 },
+    {id:4 , pic:Pic1 },
+]
+
+
+
+const arrInfo=[
+    {id:1, tit:'Followers', num:'789K'},
+    {id:2, tit:'Following', num:'298K'},
+    {id:3, tit:'Followers', num:'100K'},
+    
+]

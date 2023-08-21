@@ -2,7 +2,7 @@
 import './App.css';
 import Controller from './components/Controller/Controller';
 import Status from './components/Status/Status';
-import Layout from './components/Layout.js/Layout';
+import Layout from './components/Layout/Layout';
 import Info from './components/Info/Info';
 
 function App() {

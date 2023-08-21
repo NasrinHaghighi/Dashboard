@@ -17,7 +17,7 @@ function Target({percentage, month}) {
           const nextPercentage = prevPercentage + step;
           return nextPercentage > percentage ? percentage : nextPercentage;
         });
-      }, 50); // Adjust the interval duration as needed
+      }, 300); // Adjust the interval duration as needed
   
       if (animatedPercentage >= percentage) {
         clearInterval(animationInterval);
@@ -41,7 +41,7 @@ const textcolor=month ? '#f9f3f3': '#050505ed'
           value={animatedPercentage}
           text={`${animatedPercentage}%`}
           styles={buildStyles({
-            pathColor: `rgba(254,188,101, ${animatedPercentage / 100})`,
+            pathColor: `rgba(230,145,65, ${animatedPercentage / 100})`,
             textColor: textcolor,
             trailColor: '#fdfbfb',
             textSize: '16px',

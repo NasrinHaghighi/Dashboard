@@ -28,6 +28,12 @@ function Distribution() {
 export default Distribution
 
 
+
+
+
+
+
+
 const distArr=[
     {id:1, title:'Likes', icon:<AiOutlineHeart/>, color:'#f29244'},
     {id:2, title:'Views', icon:<RiCodeView/>, color:'#83e8f4'},

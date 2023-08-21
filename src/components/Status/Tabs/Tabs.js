@@ -4,11 +4,7 @@ import {BsCloudSleet, } from 'react-icons/bs'
 import {RxActivityLog} from 'react-icons/rx'
 import {AiOutlinePause} from 'react-icons/ai'
 import Pic3 from '../../../images/pic3.jpeg'
-const tabArr=[
-  {id:1, title:'Starnge Clouds Formation', subtit:'By Mike Taylor', icon:<BsCloudSleet />},
-  {id:2, title:'Scheduled Posts', icon:<RxActivityLog />},
-  {id:3, title:'Add Post', icon:<RxActivityLog />},
-]
+
 
 function Tabs() {
   const [activeTab, setActiveTab] =useState(1)
@@ -34,3 +30,18 @@ function Tabs() {
 }
 
 export default Tabs
+
+
+
+
+
+
+
+
+
+
+const tabArr=[
+  {id:1, title:'Starnge Clouds Formation', subtit:'By Mike Taylor', icon:<BsCloudSleet />},
+  {id:2, title:'Scheduled Posts', icon:<RxActivityLog />},
+  {id:3, title:'Add Post', icon:<RxActivityLog />},
+]
