@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, Name, Title , ImgDiv} from './style'
+import { Container, Header, Name, Title , ImgDiv, Invite} from './style'
 import Dashboard from './Dashboard/Dashboard'
 import Posts from './Posts/Posts'
 
@@ -17,6 +17,7 @@ function Controller() {
          <Dashboard />
          <Posts />
        <Posts fav='fav'/>
+       <Invite>+ Invite new member</Invite>
     </Container>
   )
 }

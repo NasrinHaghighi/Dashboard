@@ -32,7 +32,7 @@ const textcolor=month ? '#f9f3f3': '#050505ed'
   return (
     <Box month={month ? 'month' : ''}>
         <Info>
-            <Title>Weekly Target</Title>
+            <Title>{month ? 'Monthly' : 'Weekly'} Target</Title>
             <Subtit>{percentage} % Achived</Subtit>
         </Info>
 

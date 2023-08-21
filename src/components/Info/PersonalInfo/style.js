@@ -18,13 +18,13 @@ background-color: #90d2de;
 margin-bottom: 30px;
 `
 export const Name =styled.p`
-font-size: 18px;
+font-size: 15px;
 font-weight: 700;
 margin-bottom: 0px;
 
 `
 export const SubName =styled.p`
-font-size: 14px ;
+font-size: 13px ;
 font-weight: 600;
 color: ${props=>props.theme.boldGrayText};
 `
@@ -41,6 +41,8 @@ align-items: center;
 export const InfoDiv=styled.div`
 display: flex;
 flex-direction: column;
+text-align: center;
+justify-content: space-evenly;
 `
 
 
