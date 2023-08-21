@@ -8,16 +8,15 @@ justify-content: space-between;
 `
 export const Cart=styled.div`
 background-color: #fff;
-margin: 0 10px;
-width: 100px;
+margin: 0 5px;
+width: 130px;
 transition:all  0.5s ease-in-out;
 text-align: center;
 border-radius: 8px;
-
 padding: 20px;
 &.active{
     background-color:${props=>props.theme.purple}; 
-    width: 150px;
+    width: 180px;
     text-align: left;
 }
 
@@ -52,7 +51,7 @@ align-items: center;
 }
 `
 export const Title=styled.div`
-font-size: 14px;
+font-size: 13px;
 transition: all 0.3s ease-in-out;
 &.active{
     font-weight: 600;

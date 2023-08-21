@@ -5,7 +5,7 @@ export const MainContainer =styled.div`
 
 background-color:${props=>props.theme.mainBG} ;
 overflow: auto;
-padding: 0 80px 0 0;
+padding: 0 30px 0 30px;
 
 @media (min-width: 19200px) {
     /* Styles for screens larger than or equal to 1200px */

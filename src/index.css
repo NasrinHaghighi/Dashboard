@@ -41,14 +41,17 @@ code {
 }
 .accordion-button::after {
   flex-shrink: 0;
-  width: var(--bs-accordion-btn-icon-width);
-  height: var(--bs-accordion-btn-icon-width);
   margin-left:13px;
   content: "";
-  background-image: var(--bs-accordion-btn-icon);
+  background-image: url('./images/arrow.png');
   background-repeat: no-repeat;
   background-size: var(--bs-accordion-btn-icon-width);
   transition: var(--bs-accordion-btn-icon-transition);
+  transform:  scale(0.5);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url('./images/arrow.png');
+  transform: rotate(90deg) scale(0.5);
  
 }
 .accordion-button::before {
@@ -57,9 +60,12 @@ code {
   width: var(--bs-accordion-btn-icon-width);
   height: var(--bs-accordion-btn-icon-width);
    /* Add margin to the right */
-  content: "+";
+  content: "";
   right: 0;
   opacity: 0.7;
-
+  background-image: url('./images/plus.png');
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
 }
 

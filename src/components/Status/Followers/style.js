@@ -9,6 +9,7 @@ margin-bottom: 100px;
 
 `
 export const User=styled.div`
+margin-bottom: 7px;
   width: 50px; 
   height:50px; 
   background-image: url(${UserIcon});
@@ -62,4 +63,10 @@ border-radius: 50%;
 width: 50px;
 height: 50px;
 color: ${props => props.color};
+`
+
+export const DivUser=styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
 `

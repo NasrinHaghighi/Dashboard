@@ -15,7 +15,8 @@ export const AccordionItemS=styled(Accordion.Item)`
 `
 export const AccordionHeader=styled(Accordion.Header)`
     border-bottom: none !important;
- 
+ display: flex;
+ justify-content: space-between;
 `
 export const AccordionBody=styled(Accordion.Body)`
     font-size: 16px;
